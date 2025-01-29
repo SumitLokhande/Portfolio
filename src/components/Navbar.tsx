@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/sumitLogo.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 

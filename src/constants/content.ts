@@ -2,12 +2,13 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import { Experience, Project, Contact } from "../types";
 
-export const HERO_CONTENT = `I am a Web developer with 7.4 years of experience designing and developing responsive user interfaces, testing and debugging web and mobile apps. Proven ability to optimize web functionalities that improve data retrieval and workflow efficiency.`;
+export const HERO_CONTENT: string = `I am a Web developer with 7.4 years of experience designing and developing responsive user interfaces, testing and debugging web and mobile apps. Proven ability to optimize web functionalities that improve data retrieval and workflow efficiency.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile front-end stack developer with a passion for creating efficient and user-friendly web applications. With 7+ years of professional experience, I have worked with a variety of technologies, including ReactJS, Angular, VueJS, Node.js, MongoDb, Typescript, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy playing games, riding motorcycles, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT: string = `I am a dedicated and versatile front-end stack developer with a passion for creating efficient and user-friendly web applications. With 7+ years of professional experience, I have worked with a variety of technologies, including ReactJS, Angular, VueJS, Node.js, MongoDb, Typescript, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy playing games, riding motorcycles, exploring new technologies, and contributing to open-source projects.`;
 
-export const EXPERIENCES = [
+export const EXPERIENCES: Experience[] = [
   {
     year: "Nov 2022 - Dec 2024",
     role: "Senior React JS Developer",
@@ -50,7 +51,7 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
+export const PROJECTS: Project[] = [
   {
     title: "E-Commerce Website",
     image: project1,
@@ -81,7 +82,7 @@ export const PROJECTS = [
   },
 ];
 
-export const CONTACT = {
+export const CONTACT: Contact = {
   address: "Pune,India",
   phoneNo: "+91 7385442329 ",
   email: "sumitlokhande1267@gmail.com",

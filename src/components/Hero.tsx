@@ -1,9 +1,8 @@
-import React from 'react'
-import { HERO_CONTENT } from '../constants';
+import { HERO_CONTENT } from '../constants/content';
 import profilePic from '../assets/sumitProfile.png'
 import { motion } from 'framer-motion'
 
-const container = (delay) => ({
+const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
     visible: {
         x: 0,

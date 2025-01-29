@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { RiReactjsLine } from 'react-icons/ri'
 import { FaNodeJs } from 'react-icons/fa'
 import { SiTypescript } from 'react-icons/si'
@@ -10,15 +8,17 @@ import { DiJavascript } from 'react-icons/di'
 import { motion } from 'framer-motion'
 
 
-const iconVariants = (duration) => ({
+const iconVariants = (duration: number,) => ({
     initial: { y: -10 },
-    animate: {
-        y: [10, -10],
-        transition: {
-            duration: duration,
-            ease: 'linear',
-            repeat: Infinity,
-            repeatType: "reverse"
+    visible: {
+        animate: {
+            y: [10, -10],
+            transition: {
+                duration: duration,
+                ease: 'linear',
+                repeat: Infinity,
+                repeatType: "reverse"
+            }
         }
     }
 })
@@ -54,7 +54,6 @@ const Technologies = () => {
                     <DiAngularSimple className='text-7xl text-red-500' />
                 </motion.div>
                 <motion.div
-
                     variants={iconVariants(2)}
                     initial="intial"
                     animate="animate" className='rounded-2xl border-4 border-neutral-800 p-4'>

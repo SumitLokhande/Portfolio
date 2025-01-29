@@ -1,5 +1,4 @@
-import React from 'react'
-import { CONTACT } from '../constants'
+import { CONTACT } from '../constants/content'
 import { motion } from 'framer-motion'
 
 const Contact = () => {

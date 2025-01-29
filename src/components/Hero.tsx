@@ -13,7 +13,7 @@ const container = (delay: number) => ({
 
 const Hero = () => {
     return (
-        <div className='px-10 border-b border-neutral-900 pb-4 lg:mb-35'>
+        <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start'>
@@ -40,9 +40,9 @@ const Hero = () => {
                 </div>
                 <div className='w-full lg:w-1/2 lg:p-8'>
                     <motion.div
-                        initial={{ x: 400, opacity: 0 }} animate={{ x: 150, opacity: 1 }}
+                        initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 1.2 }}
-                        className='flex justify-right bg-neutral-50 pb-16 pt-4 px-4 w-md'>
+                        className='flex justify-right bg-neutral-50 pb-16 pt-4 px-4 lg:w-md sm:w-xs'>
                         <img src={profilePic} className='pb-10' alt="profile_image" />
                     </motion.div>
                 </div>

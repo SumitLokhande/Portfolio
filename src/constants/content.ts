@@ -85,5 +85,5 @@ export const PROJECTS: Project[] = [
 export const CONTACT: Contact = {
   address: "Pune,India",
   phoneNo: "+91 7385442329 ",
-  email: "sumitlokhande1267@gmail.com",
+  email: "sumitlokhande858@gmail.com",
 };

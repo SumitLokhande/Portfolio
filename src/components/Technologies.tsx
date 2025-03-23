@@ -8,22 +8,6 @@ import { DiJavascript } from 'react-icons/di'
 import { motion } from 'framer-motion'
 import FlipCard from './FlipCard'
 
-
-const iconVariants = (duration: number,) => ({
-    initial: { y: -10 },
-    visible: {
-        animate: {
-            y: [10, -10],
-            transition: {
-                duration: duration,
-                ease: 'linear',
-                repeat: Infinity,
-                repeatType: "reverse"
-            }
-        }
-    }
-})
-
 const Technologies = () => {
     return (
         <div className='border-b border-neutral-800 pb-24'>

@@ -4,94 +4,109 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import { Experience, Project, Contact } from "../types";
 
-export const HERO_CONTENT: string = `I am a Web developer with 8+ years of experience designing and developing responsive user interfaces, testing and debugging web and mobile apps. Proven ability to optimize web functionalities that improve data retrieval and workflow efficiency.`;
+export const HERO_CONTENT: string =
+  "Full Stack Engineer with 9 years of experience building scalable SaaS platforms, architecting high-performance web applications, and modernizing enterprise systems. Specialized in React.js, TypeScript, Node.js, MongoDB, and Elasticsearch, with proven expertise in frontend architecture, microservices integration, API orchestration, performance optimization, and scalable system design. Passionate about delivering robust, user-centric solutions that drive business impact and operational efficiency.";
 
-export const ABOUT_TEXT: string = `I am a dedicated and versatile MERN stack developer with a passion for creating efficient and user-friendly web applications. With 8+ years of professional experience, I have worked with a variety of technologies, including ReactJS, Angular, VueJS, Node.js, MongoDb, Typescript, and Ionic. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy playing games, riding motorcycles, exploring new technologies.`;
-
+export const ABOUT_TEXT: string = `I am a Full Stack Engineer with 9 years of experience designing, developing, and scaling modern web applications across SaaS, fintech, enterprise, and blockchain domains. Throughout my career, I have worked extensively with React.js, TypeScript, Node.js, MongoDB, Elasticsearch, Angular, Vue.js, and modern frontend architectures to build high-performance, maintainable, and scalable products.
+My expertise spans frontend architecture, API integrations, microservices-based systems, performance optimization, reusable component libraries, workflow automation, and enterprise-scale application development. I enjoy solving complex engineering challenges, improving system efficiency, and building solutions that balance business goals with technical excellence.
+Beyond coding, I continuously explore system design, scalable architectures, and emerging technologies. Outside of technology, I enjoy long-distance motorcycle touring, gaming, contributing to personal projects, and exploring new innovations in software engineering.`;
 export const EXPERIENCES: Experience[] = [
   {
-    year: "April 2025 - May 2026",
+    year: "Apr 2025 - May 2026",
     role: "Senior Software Engineer",
     company: "iSoftStone",
-    description: `Re-architected the data pipeline from FE → Node → Thrift → Elasticsearch to a streamlined FE → Node → Elasticsearch flow, improving API latency by 200%. Led integration of internal RESTful microservices into the core platform, enabling unified access and enhancing extensibility across teams. Built and launched Google & Apple Listing Accuracy and created the Bing Profile Deletion workflow for Single/Bulk, boosting engagement by 15%. Designed Listing Accuracy Workflow, reducing manual ops by 30% and improving build stability and CI/CD compatibility.`,
+    description: `Led architecture and development initiatives for a high-scale SaaS platform serving location and business management workflows. Re-architected a critical search pipeline from FE → Node → Thrift → Elasticsearch to FE → Node → Elasticsearch, reducing API latency by 200% and significantly improving platform responsiveness. Integrated distributed RESTful microservices into the core platform, enabling unified service orchestration and improved scalability. Delivered Google & Apple Listing Accuracy modules and Bing Profile Deletion workflows, increasing platform engagement by 15%. Automated operational workflows, reducing manual effort by 30% while improving deployment stability and CI/CD compatibility.`,
     technologies: [
-      "React JS",
-      "Redux Toolkit",
-      "Angular JS",
-      "Node.js",
-      "MongoDB",
-      "Material UI",
+      "React.js",
       "TypeScript",
-      "Bootstrap",
-      "Cody",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Elasticsearch",
+      "REST APIs",
+      "Microservices",
+      "Material UI",
+      "Jenkins",
+      "Storybook",
+      "Cody AI",
     ],
   },
+
   {
     year: "Nov 2022 - Dec 2024",
     role: "Senior React JS Developer",
-    company: "Parallel-Minds, Pune",
-    description: `Worked on the development and maintenance of web applications with a focus on building intuitive UI components, API integration, and efficient data management.`,
+    company: "Parallel-Minds",
+    description: `Developed scalable booking and workflow management platforms focused on reusable component architecture, performance optimization, and maintainability. Designed responsive user interfaces, integrated complex APIs, and improved frontend data management strategies. Collaborated closely with cross-functional teams to deliver business-critical features while maintaining high code quality and scalability standards.`,
     technologies: [
-      "React JS",
-      "Redux Toolkit",
-      "Material UI",
+      "React.js",
       "TypeScript",
-      "Bootstrap 4",
+      "Redux Toolkit",
+      "REST APIs",
+      "Material UI",
+      "Bootstrap",
+      "JavaScript",
     ],
   },
+
   {
-    year: "March 2021 - Nov 2022",
+    year: "Mar 2021 - Nov 2022",
     role: "Senior System Engineer",
-    company: "Indexnine, Pune",
-    description: `Contributed to multiple projects involving front-end development, state management, and UI/UX design.`,
+    company: "Indexnine",
+    description: `Built scalable frontend architectures for fintech and identity verification platforms using React, Vue.js, and TypeScript. Designed reusable component libraries using Storybook, enabling faster feature development across teams. Implemented real-time workflows using WebSockets and developed interactive financial dashboards with advanced data visualization capabilities.`,
     technologies: [
-      "React JS",
+      "React.js",
+      "Vue.js",
+      "TypeScript",
       "Redux Toolkit",
-      "VueJS",
-      "Vuetify",
+      "WebSockets",
+      "Storybook",
       "Ant Design",
       "Material UI",
-      "TypeScript",
+      "Vuetify",
     ],
   },
+
   {
-    year: "Jan 2020 - March 2021",
+    year: "Jan 2020 - Mar 2021",
     role: "Senior System Engineer",
-    company: "IBM, Pune",
-    description: `Involved in the development and maintenance of enterprise-grade applications using cutting-edge web development technologies.`,
+    company: "IBM",
+    description: `Contributed to enterprise-scale banking and workforce management applications used across global organizations. Developed advanced search, filtering, and resource discovery solutions while integrating multiple backend services. Worked across React, Angular, Node.js, and ASP.NET ecosystems to deliver highly reliable business applications.`,
     technologies: [
-      "React JS",
-      "Redux",
-      "Material UI",
+      "React.js",
+      "Angular",
       "TypeScript",
-      "Angular 7",
+      "Redux",
+      "Node.js",
       "ASP.NET",
-      "NodeJS",
-      "MongoDB",
-    ],
-  },
-  {
-    year: "April 2019 - Dec 2019",
-    role: "Technical Consultant",
-    company: "Cipherhut, World Trade Center, Pune",
-    description: `Developed web applications and admin panels, focusing on front-end and backend architecture, responsive design, and seamless user experience.`,
-    technologies: [
-      "React JS",
-      "Redux",
       "Material UI",
-      "TypeScript",
-      "Angular 8",
-      "Bootstrap 4.3",
-      "NodeJS",
-      "MongoDB",
+      "REST APIs",
     ],
   },
+
   {
-    year: "Aug 2017 - April 2019",
+    year: "Apr 2019 - Dec 2019",
+    role: "Technical Consultant",
+    company: "Cipherhut",
+    description: `Designed and developed blockchain-based products including cryptocurrency exchanges, wallet systems, investment platforms, and real-time trading dashboards. Built scalable frontend and backend solutions while implementing WebSocket-powered real-time communication and transaction workflows.`,
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "WebSockets",
+      "Redux",
+      "Angular",
+      "Bootstrap",
+    ],
+  },
+
+  {
+    year: "Aug 2017 - Apr 2019",
     role: "Associate",
-    company: "Capco, Vatika Business Center, Pune",
-    description: `Developed web applications and mobile applications and admin panels, focusing on front-end architecture, responsive design, and seamless user experience.`,
-    technologies: ["Ionic", "Angular 8", "Bootstrap 4.3"],
+    company: "Capco",
+    description: `Developed enterprise banking and financial applications for mobile and web platforms using Ionic and Angular. Delivered responsive user interfaces, workflow automation features, and customer-facing applications within Agile development environments.`,
+    technologies: ["Ionic", "Angular", "JavaScript", "TypeScript", "Bootstrap"],
   },
 ];
 
@@ -136,7 +151,7 @@ export const PROJECTS: Project[] = [
 export const CONTACT: Contact = {
   address: "Pune,India",
   phoneNo: "+91 7385442329 ",
-  email: "sumitlokhande858@gmail.com",
+  email: "sumitlokhande1267@gmail.com",
 };
 
 export const FullStackRoadMap: object = {

@@ -18,7 +18,7 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <img
-              className="rounded-2xl w-3/4 object-scale-up"
+              className="rounded-2xl w-3/4 object-scale-up my-10"
               src={aboutImg}
               alt="about"
             />
@@ -30,7 +30,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2"
         >
-          <div className="flex justify-center lg:justify-start text-2xl py-8">
+          <div className="flex justify-center lg:justify-start text-2xl">
             <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
